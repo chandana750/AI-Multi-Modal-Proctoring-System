@@ -1,6 +1,7 @@
 import cv2
 
 def show_alert(frame, text):
+
     cv2.putText(
         frame,
         text,
@@ -10,5 +11,5 @@ def show_alert(frame, text):
         (0,0,255),
         2
     )
-    return frame
 
+    return frame
